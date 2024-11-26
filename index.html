@@ -5,44 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Intro</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- підв'язування зовнішніх стилів - найкраще так використовувати -->
-    <!-- Внутрішні стилі - устарівший спосіб задавати стилі, зазвичай цей метод використовують для шидкої перевірки чого -->
-    <!-- <style>      
-        h1 {
-            color: coral;
-            text-align: center;
-            font-size: 48px;
-            /* font-size: 32px; */
-        }
-        h2 {
-            color: rgb(255, 0, 0);
-        }
-        p {
-            color: #000000;
-            text-align: justify;
-        }
-    </style> -->
+
 </head>
 <body>
-    <!-- Inline стилі - через атрибут style - так писати вручну це погана практика, так записується через JS автоматично -->
-    <h1 style="font-size: 64px">Lorem ipsum dolor sit amet.</h1>
-
-    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-    <p class="annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime quod nesciunt sequi exercitationem nam distinctio corrupti dolore vero, quia possimus accusantium fuga laboriosam dolor aliquam deleniti ducimus doloremque! Dolorem!</p>
-    <p>Asperiores animi eum numquam sed dolorem cupiditate dolore! Accusamus corrupti labore, quidem sunt deserunt ullam est porro suscipit cum a nemo aliquid inventore laborum libero quos, maiores iure laudantium! Voluptatum?</p>
-    <p>Asperiores animi eum numquam sed dolorem cupiditate dolore! Accusamus corrupti labore, quidem sunt deserunt ullam est porro suscipit cum a nemo aliquid inventore laborum libero quos, maiores iure laudantium! Voluptatum?</p>
-
-    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-    <p class="annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime quod nesciunt sequi exercitationem nam distinctio corrupti dolore vero, quia possimus accusantium fuga laboriosam dolor aliquam deleniti ducimus doloremque! Dolorem!</p>
-    <p>Asperiores animi eum numquam sed dolorem cupiditate dolore! Accusamus corrupti labore, quidem sunt deserunt ullam est porro suscipit cum a nemo aliquid inventore laborum libero quos, maiores iure laudantium! Voluptatum?</p>
-    <p>Asperiores animi eum numquam sed dolorem cupiditate dolore! Accusamus corrupti labore, quidem sunt deserunt ullam est porro suscipit cum a nemo aliquid inventore laborum libero quos, maiores iure laudantium! Voluptatum?</p>
-
-    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-    <p class="annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime quod nesciunt sequi exercitationem nam distinctio corrupti dolore vero, quia possimus accusantium fuga laboriosam dolor aliquam deleniti ducimus doloremque! Dolorem!</p>
-    <p>Asperiores animi eum numquam sed dolorem cupiditate dolore! Accusamus corrupti labore, quidem sunt deserunt ullam est porro suscipit cum a nemo aliquid inventore laborum libero quos, maiores iure laudantium! Voluptatum?</p>
-    <p>Asperiores animi eum numquam sed dolorem cupiditate dolore! Accusamus corrupti labore, quidem sunt deserunt ullam est porro suscipit cum a nemo aliquid inventore laborum libero quos, maiores iure laudantium! Voluptatum?</p>
-
-    <button id="subscribe-btn">Subscribe</button>
-    
+    <!-- inline elements - param display inline -->
+    <a href="#">Lorem</a>
+    <a href="#">Lorem</a>
+    <!-- block elements - param display block -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, cum id. Minima ratione vero quas possimus delectus aperiam illo alias quisquam recusandae, sapiente ab eligendi deserunt pariatur veniam labore modi.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam voluptatibus officiis perspiciatis tempora quia. Inventore facere quas deleniti perspiciatis odit. Vel, asperiores similique? Aliquam saepe, impedit dicta ullam incidunt quae!</p> 
+    </div>
+    <!-- how to change standart display param -->
+     <nav>
+        <ul>
+            <!-- list item element - param display list-item -->
+            <li class="nav-link-item">
+                <a href="#">Hello</a>
+            </li>
+            <li class="nav-link-item">
+                <a href="#">Hello</a>
+            </li>
+            <li class="nav-link-item">
+                <a href="#">Hello</a>
+            </li>
+        </ul>
+     </nav>
 </body>
 </html>
