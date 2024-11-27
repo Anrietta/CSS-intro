@@ -21,6 +21,15 @@ img {
     padding: 5px;
 }
 
+div {
+    background-color: grey;
+    background-image: url("./../img/background_img.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 /* змінюємо list-item модель на inline - щоб стали всі в один рядок */
 .nav-link-item {
